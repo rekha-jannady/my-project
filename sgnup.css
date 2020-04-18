@@ -1,0 +1,91 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(space-saving5.jpg);
+    background-size: cover;
+}
+    .container{
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+header{
+   
+}
+.signup
+{
+    background:black;
+	padding:40px;
+	width:250px;
+	margin:auto;
+	margin-top:80px;
+	height:430px;
+	margin-left:180px;
+	margin:0 auto;
+	margin-top:90px;
+}
+form
+{
+    width: 240px;
+    text-align: center;
+}
+input
+{
+    
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.avathar{
+    width:80px;
+    height:80px;
+    border-radius:50%center;
+    position:absolute;
+    top:140px;
+    left:800px;
+    transform:translate(-70px,-70px);
+    margin-right:500px;
+
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color: black;
+}
+h2
+{
+    color: #000;
+    
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; /* Firefox */
+}

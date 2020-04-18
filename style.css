@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    height:50px;
+    width:100%;
+    background: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    font: bold 1em arial;
+    padding: 0em 4em;
+}
+
+.links{
+    width: 300px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links a{
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+    font-family: Arial,sans-serif;
+    letter-spacing: 1px;
+}
+
+.container{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('news wal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container h1{
+    padding: 2em;
+    color:#fff;
+    font-size: 4em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    padding: 1em 2em;
+    text-decoration: none;
+    border:none;
+    outline:none;
+    font-family:Arial, Helvetica, sans-serif;
+    background: black;
+    color:white;
+    margin: 1em;
+    border-radius:4px;  
+    transition: all .3s ease-in;
+}
+
+.btn:hover{
+    background: dodgerblue;
+    transition: all .3s ease-in;
+}
